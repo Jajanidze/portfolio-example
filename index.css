@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Work+Sans:wght@300;800&display=swap');
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+
+.profileText{
+    font-size: 25px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.imgBx{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.imgBx img{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+
+
+.contact{
+    padding: top 40px;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #063b53;
+}
+
+
+.contact ul{
+   position:relative;
+}
+
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+ 
+.contact ul li .icon{
+
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #063b53;
+}
+
+.contact ul li span{
+
+    font-weight: 300;
+}
+
+.skills ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.skills .name{
+
+    font-weight: 100;
+}
+
+
+.profileText{
+    margin-bottom: 70px;
+}
+
+ 
+.container .left{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.container .right{
+    position: relative;
+    background: #063b53;
+    padding: 40px;
+}
+
+.container .right span{
+    font-size: 25px;
+}
+
+.description p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.experience{
+    color: #fff;
+    font-size: 25px;
+}
+
+.experience .title{
+    color: #fff;
+}
+
+.experience .company{
+    color: #fff;
+    font-size: 15px;
+}
+
+.experience li p{
+    font-size: 15px;
+}
